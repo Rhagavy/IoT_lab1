@@ -14,4 +14,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  Serial.println("Milliseconds since D1 has been started: "+String(millis()));
+  delay(2000);
+
 }
